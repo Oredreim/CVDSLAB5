@@ -43,4 +43,8 @@ Luego de guardar el contenido del HTML en un txt, y ejecutar el comando wc -c, v
 
 La diferencia entre los métodos GET y POST radica en la forma de enviar los datos a la página cuando se pulsa el botón “Enviar”. Mientras que el método GET envía los datos usando la URL, el método POST los envía de forma que no podemos verlos (en un segundo plano u "ocultos" al usuario).
 
+### En la practica no se utiliza telnet para hacer peticiones a sitios web sino el comando curl con ayuda de la linea de comandos:
 
+¿Cuáles son las diferencias con los diferentes parámetros?
+
+Luego de ejecutar el comando curl www.httpbin.org, vemos que nos aparece todo el código HTML de la página web www.httpbin.org.  Después, al ejecutar el comando curl -v www.httpbin.org, vemos que nos muestra detalladamente que hizo una conexión a la dirección IP 3.221.81.55 por el puerto 80, realiza el GET al host www.httpbin.org, el cual muestra que ha sido Aceptado, y después si muestra el HTML de la página web.  Ahora, al ejecutar el comando curl -i www.httpbin.org, vemos que a diferencia del comando curl -v www.httpbin.org, este al principio no muestra información detallada del GET, sino que muestra la fecha y hora en que se realizó la consulta del HTML, acompañado del tipo, que es HTML, la longitud, el tipo de conexión, el servidor al que se conectó, y luego si el código HTML. 
