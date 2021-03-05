@@ -27,3 +27,20 @@ La solicitud contenía datos válidos y fue entendida por el servidor, pero el s
 #### Error 404: Not Found:
 No se pudo encontrar el recurso solicitado, pero es posible que esté disponible en el futuro. Se permiten solicitudes posteriores por parte del cliente.
 
+### 4. Realice una nueva conexión con telnet, esta vez a:
+- Host: www.httpbin.org
+- Puerto: 80
+- Versión HTTP: 1.1 Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
+Luego de ejecutar el comando telnet `www.httpbin.org 80`
+
+### 5. Seleccione el contenido HTML de la respuesta y copielo al cortapapeles CTRL-SHIFT-C. Ejecute el comando wc (word count) para contar palabras con la opción -c para contar el número de caracteres:
+
+Pegue el contenido del portapapeles con CTRL-SHIFT-V y presione CTRL-D (fin de archivo de Linux). Si no termina el comando wc presione CTRL-D de nuevo. No presione mas de dos veces CTRL-D indica que se termino la entrada y puede cerrarle la terminal. Debe salir el resultado de la cantidad de caracteres que tiene el contenido HTML que respondió el servidor.
+
+Claro está, las peticiones GET son insuficientes en muchos casos. Investigue: ¿Cuál es la diferencia entre los verbos GET y POST? ¿Qué otros tipos de peticiones existen?
+
+Luego de guardar el contenido del HTML en un txt, y ejecutar el comando wc -c, vemos que nos aparece el conteo total de caracteres, de la siguiente forma.
+
+La diferencia entre los métodos GET y POST radica en la forma de enviar los datos a la página cuando se pulsa el botón “Enviar”. Mientras que el método GET envía los datos usando la URL, el método POST los envía de forma que no podemos verlos (en un segundo plano u "ocultos" al usuario).
+
+
