@@ -43,7 +43,7 @@ Luego de guardar el contenido del HTML en un txt, y ejecutar el comando wc -c, v
 
 La diferencia entre los métodos GET y POST radica en la forma de enviar los datos a la página cuando se pulsa el botón “Enviar”. Mientras que el método GET envía los datos usando la URL, el método POST los envía de forma que no podemos verlos (en un segundo plano u "ocultos" al usuario).
 
-### En la practica no se utiliza telnet para hacer peticiones a sitios web sino el comando curl con ayuda de la linea de comandos:
+### 6. En la practica no se utiliza telnet para hacer peticiones a sitios web sino el comando curl con ayuda de la linea de comandos:
 
 ¿Cuáles son las diferencias con los diferentes parámetros?
 
