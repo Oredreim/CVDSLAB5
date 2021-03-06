@@ -1,5 +1,8 @@
 # CVDSLAB5
 
+**JUAN SEBASTIAN GARCIA HINCAPIE** 
+**CRISTIAN CAMILO PIÑEROS AREVALO**
+
 ## Parte I. - Jugando a ser un cliente HTTP
 ### 1. Abra una terminal Linux o consola de comandos Windows.
 ### 2. Realice una conexión síncrona TCP/IP a través de Telnet al siguiente servidor:
