@@ -101,12 +101,12 @@ Luego de ejecutar el comando curl www.httpbin.org, vemos que nos aparece todo el
 ## Parte III. 
 20. Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada. Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?
 
-**ej 1 :** 
+**ej 1 :**   
 
 ![images](images/9.png)
 ![images](images/10.png)
 
-**ej 2 :** 
+**ej 2 :**   
 
 ![images](images/11.png)
 ![images](images/12.png)
@@ -128,9 +128,10 @@ el bean de secion y de aplicacion no genero ningun cambio :
 
 11
 lista  
-![images](images/19.png)
+![images](images/19.png)  
+
 reinicio  
-![images](images/20.png)
+![images](images/20.png)  
 
 
 
