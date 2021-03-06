@@ -27,6 +27,10 @@
                 <p:outputLabel value= "Intentos " />
                 <p:outputLabel value= "#{guessBean.trys}" />
 
+                <br/>
+                <p:outputLabel value= "Listado de intentos " />
+                <p:outputLabel value= "#{guessBean.listado}" />
+
             </h:form>
             <p:commandButton value = "Ejecutar" update="guess_form" actionListener="#{guessBean.guess()}"></p:commandButton>
             <p:commandButton value = "Reiniciar" update="guess_form" actionListener="#{guessBean.restart()}"></p:commandButton>

@@ -1,15 +1,17 @@
 package calculadora;
 
 import java.util.Random;
-
+import java.util.*;
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.RequestScoped;
+import javax.faces.bean.SessionScoped;
 
 
 @ManagedBean (name = "guessBean")
-@ApplicationScoped
+@SessionScoped
+//@ApplicationScoped
 public class Adivinar {
 
 	private Random r = new Random();
@@ -17,6 +19,8 @@ public class Adivinar {
 	private int number = r.nextInt(10)+1;
 	private int score = 100000; 
 	private int intento = 0;
+
+	private ArrayList<Integer> listado = new ArrayList<Integer>(); 
 	boolean win = false; 
 	
 
@@ -48,6 +52,7 @@ public class Adivinar {
 		win =  (intento == number) ;
 		addTry();
 		if(! win){
+			listado.add(intento);
 			fail();
 		}
 	}
@@ -57,6 +62,8 @@ public class Adivinar {
 		number = r.nextInt(10);
 		score = 100000;
 		win = false; 
+		listado = new ArrayList<Integer>(); 
+
 	}
 	public String getWin(){
 		String c = "Ganó";
@@ -68,7 +75,23 @@ public class Adivinar {
 	}
 	public void fail(){
 		if (score - 10000 >= 0) score -= 10000;
-		 
+	}
+	public void setListado(ArrayList<Integer> listado){
+		this.listado = listado;  
+	}
+
+	public String getListado (){
+		String toReturn = "";
+		for(int i = 0 ; i< listado.size() ; i++ ){
+			if (i != listado.size()-1){
+				toReturn += (String.valueOf(listado.get(i)) + " , ");
+			}
+			else{
+				toReturn += String.valueOf(listado.get(i)); 
+			}
+			
+		} 
+		return toReturn; 
 	}
 
 	
