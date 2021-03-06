@@ -12,7 +12,7 @@
         </h:head>
         <h:body>
             <h:form id="guess_form">
-                <p:outputLabel value= "Numero a adivinar: " />
+                <p:outputLabel value= "Numero a adivinar(entre 1-10) : "/>
                 
                 <p:outputLabel value= "#{guessBean.number}" />
                 <br/>
@@ -23,6 +23,10 @@
                 <br/>
                 <p:outputLabel value= "Premio actual: " />
                 <p:outputLabel value= "#{guessBean.score}" />
+                <br/>
+                <p:outputLabel value= "Intentos " />
+                <p:outputLabel value= "#{guessBean.trys}" />
+
             </h:form>
             <p:commandButton value = "Ejecutar" update="guess_form" actionListener="#{guessBean.guess()}"></p:commandButton>
             <p:commandButton value = "Reiniciar" update="guess_form" actionListener="#{guessBean.restart()}"></p:commandButton>

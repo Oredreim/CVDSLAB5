@@ -14,7 +14,7 @@ public class Adivinar {
 
 	private Random r = new Random();
 	private int trys = 0;
-	private int number = r.nextInt(10);
+	private int number = r.nextInt(10)+1;
 	private int score = 100000; 
 	private int intento = 0;
 	boolean win = false; 
