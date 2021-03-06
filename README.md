@@ -69,10 +69,44 @@ Luego de ejecutar el comando curl www.httpbin.org, vemos que nos aparece todo el
    </plugins>
 ```
 5. Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
-6. 
+
 ![images](images/1.png)
 
-6.Observe que el Servlet ‘SampleServlet’ acepta peticiones GET, y opcionalmente, lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregando un parámetro GET (si no sabe como hacerlo, revise la documentación en http://www.w3schools.com/tags/ref_httpmethods.asp).
+6. Observe que el Servlet ‘SampleServlet’ acepta peticiones GET, y opcionalmente, lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregando un parámetro GET (si no sabe como hacerlo, revise la documentación en http://www.w3schools.com/tags/ref_httpmethods.asp).
 
 ![images](images/2.png)
+
+7. Busque el artefacto gson en el repositorio de maven y agregue la dependencia.
+```
+<dependency>
+	    <groupId>com.google.code.gson</groupId>
+	    <artifactId>gson</artifactId>
+	    <version>2.8.5</version>
+	</dependency>
+```
+8. En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
+![images](images/3.png)
+![images](images/4.png)
+![images](images/5.png)
+
+
+14. verifique el funcionamiento de la aplicación, recompile y ejecute la aplicación.
+![images](images/8.png)
+
+15. Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades.
+![images](images/6.png)
+![images](images/7.png)
+
+
+## Parte III. 
+
+
+
+
+
+
+
+
+
+
 
