@@ -99,12 +99,38 @@ Luego de ejecutar el comando curl www.httpbin.org, vemos que nos aparece todo el
 
 
 ## Parte III. 
+20. Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada. Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?
 
+**ej 1 :** 
 
+![images](images/9.png)
+![images](images/10.png)
 
+**ej 2 :** 
 
+![images](images/11.png)
+![images](images/12.png)
 
+## Parte IV.
+9. Para verificar el funcionamiento de la aplicación, agregue el plugin tomcat-runner dentro de los plugins de la fase de construcción (build). Tenga en cuenta que en la configuración del plugin se indica bajo que ruta quedará la aplicación:
 
+![images](images/13.png)
+![images](images/14.png)
+![images](images/15.png)
+
+10 - c 
+![images](images/16.png)
+el bean de secion y de aplicacion no genero ningun cambio : 
+![images](images/17.png)
+
+10 - d 
+![images](images/18.png)
+
+11
+lista
+![images](images/19.png)
+reinicio
+![images](images/20.png)
 
 
 
