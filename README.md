@@ -90,10 +90,10 @@ Luego de ejecutar el comando curl www.httpbin.org, vemos que nos aparece todo el
 ![images](images/5.png)
 
 
-14. verifique el funcionamiento de la aplicación, recompile y ejecute la aplicación.
+14. verifique el funcionamiento de la aplicación, recompile y ejecute la aplicación.  
 ![images](images/8.png)
 
-15. Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades.
+15. Intente hacer diferentes consultas desde un navegador Web para probar las diferentes funcionalidades.  
 ![images](images/6.png)
 ![images](images/7.png)
 
@@ -118,18 +118,18 @@ Luego de ejecutar el comando curl www.httpbin.org, vemos que nos aparece todo el
 ![images](images/14.png)
 ![images](images/15.png)
 
-10 - c 
+10 - c  
 ![images](images/16.png)
 el bean de secion y de aplicacion no genero ningun cambio : 
 ![images](images/17.png)
 
-10 - d 
+10 - d  
 ![images](images/18.png)
 
 11
-lista
+lista  
 ![images](images/19.png)
-reinicio
+reinicio  
 ![images](images/20.png)
 
 
