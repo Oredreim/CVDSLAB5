@@ -103,7 +103,7 @@ Luego de ejecutar el comando curl www.httpbin.org, vemos que nos aparece todo el
 
 **ej 1 :**   
 
-![images](images/9.png)
+![images](images/9.png)  
 ![images](images/10.png)
 
 **ej 2 :**   
